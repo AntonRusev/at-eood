@@ -7,7 +7,7 @@ import SectionHeading from './SectionHeading';
 
 import { useSectionInView } from '@/lib/hooks';
 import {
-    laptopMockupFadeInAnimationVariant,
+    contactFadeInAnimationVariant,
     formFadeInAnimationVariant,
 } from '@/lib/animation-variants';
 
@@ -32,7 +32,7 @@ export default function Contact() {
 
             {/* Email link */}
             <motion.div
-                variants={laptopMockupFadeInAnimationVariant}
+                variants={contactFadeInAnimationVariant}
                 initial="initial"
                 whileInView="animate"
                 viewport={{
@@ -41,11 +41,9 @@ export default function Contact() {
                 className='mt-2 md:my-10'
             >
                 <p className='text-gray-100 text-3xl tracking-wide my-36'>
-                    Можете да се свържете с нас на телефон 0895738275
+                    Можете да се свържете с нас на телефон 0896677778
                 </p>
             </motion.div>
-
-
         </motion.section>
     );
 };

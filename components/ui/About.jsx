@@ -9,7 +9,7 @@ import SectionHeading from './SectionHeading';
 
 import { useSectionInView } from '@/lib/hooks';
 import {
-    mobileMockupFadeInAnimationVariant,
+    pictureFadeInAnimationVariant,
     textFadeInAnimationVariant,
 } from '@/lib/animation-variants';
 
@@ -50,9 +50,9 @@ export default function About() {
                     Машиносмяната с багер включва от 6 до 8 часа работа с багера за един ден.
                 </motion.p>
 
-                {/* First picture */}
+                {/* Top picture */}
                 <motion.div
-                    variants={mobileMockupFadeInAnimationVariant}
+                    variants={pictureFadeInAnimationVariant}
                     initial="initial"
                     whileInView="animate"
                     viewport={{
@@ -83,9 +83,9 @@ export default function About() {
                     Разполагаме с различни видове багери: Верижни багери, Колесни багери, Комбинирани багери и Мини багери. Имаме голямо разнообразие от багери с различни размери - с тегло от 1 до 30 тона и мощност от 10 до 200 конски сили.
                 </motion.p>
 
-                {/* Second picture */}
+                {/* Middle picture */}
                 <motion.div
-                    variants={mobileMockupFadeInAnimationVariant}
+                    variants={pictureFadeInAnimationVariant}
                     initial="initial"
                     whileInView="animate"
                     viewport={{
@@ -116,9 +116,9 @@ export default function About() {
                     Багер услугите включват дейности като: масов изкоп за сграда, траншеен изкоп на ограда, ивични фундаменти, изкоп на шахти и изгребни ями, изкоп за полагане на кабели, разрушаване на къщи и постройки, разчистване и подравняване на парцели, разтоварване на материали, почистване на корита на реки и много други дейности.
                 </motion.p>
 
-                {/* Third picture */}
+                {/* Bottom picture */}
                 <motion.div
-                    variants={mobileMockupFadeInAnimationVariant}
+                    variants={pictureFadeInAnimationVariant}
                     initial="initial"
                     whileInView="animate"
                     viewport={{
